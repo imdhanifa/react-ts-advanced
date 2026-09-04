@@ -4,7 +4,7 @@ import { getProductList } from "./productList.thunks"
 import { Link } from "react-router-dom"
 import { PATH } from "../../../constants/paths"
 import { handlePrice } from "../../../helpers/string"
-import style from "./ProductList.module.scss"
+import style from "./productList.module.scss"
 
 const mapStateToProps = (state: AppState) => ({
   productList: state.productList.productList

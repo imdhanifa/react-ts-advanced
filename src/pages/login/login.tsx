@@ -3,7 +3,7 @@ import { connect, type ConnectedProps } from "react-redux"
 import { login } from "./login.thunks"
 import { useNavigate } from "react-router-dom"
 import { PATH } from "../../constants/paths"
-import styles from "./Login.module.scss"
+import styles from "./login.module.scss"
 
 const mapStateToProps = (state: any) => ({
   loading: state.loading,
